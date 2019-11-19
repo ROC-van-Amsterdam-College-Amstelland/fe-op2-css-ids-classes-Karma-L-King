@@ -25,3 +25,20 @@ footer ul li {
     justify-content: center;
     align-items: center;
 }
+
+footer ul {
+    background-color: lightblue;
+}
+
+header ul {
+    background-color: lightblue;
+}
+
+li:hover {
+    background-color: pink;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
