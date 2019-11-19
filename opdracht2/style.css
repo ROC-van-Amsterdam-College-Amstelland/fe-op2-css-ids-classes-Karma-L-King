@@ -2,16 +2,26 @@
 
 html,
 body {
-    height: 100%;
+    height: 1000px;
 }
 
 header {
     width: 100%;
-    height: 20%;
+    height: 30%;
+    background-color: blueviolet;
+    flex-direction: row;
 }
 
 header img {
     margin: 20px;
+}
+
+main img {
+    width: 400px;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 main {
@@ -23,6 +33,7 @@ main {
 footer {
     width: 100%;
     height: 20%;
+    background-color: beige;
 }
 
 footer img {
@@ -41,6 +52,21 @@ img {
 header nav ul {
     display: flex;
     list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h3 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    border: dashed black 1px;
 }
 
 
